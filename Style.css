@@ -1,0 +1,129 @@
+    body {
+      font-family: poppins, sans-serif;  
+      margin: 0px;
+    }
+
+    #navbar {
+      background-color: grey;
+      padding: 5px;
+      text-align: right;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      box-sizing: border-box;
+      height: 45px;
+    }
+
+    #navbar.sticky {
+      position: fixed;
+      top: 0;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+    }
+
+    nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0px 10px;
+      padding: 5px 0;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      min-height: 100vh;
+    }
+
+    #spoon{
+      width:50%;
+    }
+
+    #logo{
+      height:40px;
+      width:100px;
+      float: left;
+    }
+
+    section#header {
+            background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-image: url("https://wallpaper.dog/large/20491965.jpg");
+    }
+
+    section#bugs {
+      background-image: url("https://wallpapercave.com/wp/wp4544790.jpg");
+      color: #0f2852;
+    }
+
+    section#plants {
+      background-repeat: no-repeat;
+      background-image: url("https://images.pexels.com/photos/1470171/pexels-photo-1470171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      background-size: 100% 100%;
+      color: #40081a;
+    }
+
+    section#animals {
+                  background-size: 100% 100%;
+      background-color: #85FFBD;
+      background-image: url("https://e0.pxfuel.com/wallpapers/949/125/desktop-wallpaper-abstract-owls-background.jpg");
+      color: #084012;
+    }
+
+    article {
+      width: 90%;
+      max-width: 600px;
+      padding: 20px;
+      margin: 0px auto;
+    }
+
+    h2 {
+      text-align: center;
+      padding: 40px 0px 0px 0px;
+      font-size: 3em;
+    }
+
+    p {
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    @media
+    (prefers-reduced-motion: no-preference) {
+      html {
+        scroll-behavior: smooth;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      body {
+        font-size: 14px;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      body {
+        font-size: 11px;
+      }
+    }
+
+    #food{
+      float: right;
+      width: 20%;
+    }
+
+    #welcoming{
+      color: white;
+      font-size: 75px;
+      -webkit-text-stroke: 1px black;
+      position: absolute; 
+      bottom: 100px;
+      right: 100px;
+    }
